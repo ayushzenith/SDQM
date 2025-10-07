@@ -3,9 +3,6 @@
   <div align="center">
     <table>
       <tr>
-        <td style="vertical-align: middle;">
-          <img src="./media/pearson_correlation_matrix.png" width="400" />
-        </td>
         <td style="vertical-align: middle; padding-left: 30px; padding-right: 30px;">
           <table>
             <thead>
