@@ -51,11 +51,11 @@
   <p align="center">
     <a href="https://ayushzenith.me"><strong>Ayush Zenith</strong></a>
     ·
-    <a href=""><strong>Arnold Zumbrun</strong></a>
+    <a href="#"><strong>Arnold Zumbrun</strong></a>
     ·
-    <a href=""><strong>Neel Raut</strong></a>
+    <a href="#"><strong>Neel Raut</strong></a>
     ·
-    <a href=""><strong>Jing Lin</strong></a>
+    <a href="#"><strong>Jing Lin</strong></a>
   </p>
   <h3 align="center">
     <a href="https://arxiv.org/pdf/" target="_blank">Paper</a> | <a href="https://github.com/ayushzenith/SDQM" target="_blank">Code</a> 
