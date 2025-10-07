@@ -152,9 +152,9 @@ The `select_datasets.py` script selects the desired real and synthetic dataset p
 
 #### Dataset Configuration
 
-- `--num_datasets`:
-  **Type:** `int`
-  **Default:** `1`
+- `--num_datasets`:   
+  **Type:** `int`   
+  **Default:** `1`   
   **Description:** Number of real dataset splits to create.
 
 - `--input_yolo_dir`:  
