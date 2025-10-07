@@ -3,12 +3,12 @@
   <div align="center">
     <table>
       <tr>
-        <td style="vertical-align: middle; width: 50%; padding-left: 30px; padding-right: 30px;">
+        <td style="vertical-align: middle; width: 30%; padding-left: 15px; padding-right: 15px;">
           <table style="width: 100%; margin: 0 auto;">
             <thead>
               <tr>
                 <th>Metric</th>
-                <th>mAP50<br>Pearson Correlation</th>
+                <th>mAP50<br>Pearson<br>Correlation</th>
               </tr>
             </thead>
             <tbody>
@@ -36,13 +36,13 @@
             <tfoot>
               <tr>
                 <td colspan="2" style="text-align: center; font-size: 0.9em; padding-top: 10px;">
-                  <i>SDQM demonstrates superior correlation with model performance compared to alternative metrics.</i>
+                  <i>SDQM demonstrates superior correlation <br> with model performance compared to alternative metrics.</i>
                 </td>
               </tr>
             </tfoot>
           </table>
         </td>
-        <td style="vertical-align: middle; width: 50%; text-align: center;">
+        <td style="vertical-align: middle; width: 70%; text-align: center;">
           <img src="./media/scatter_plot_random_forest.png" style="width: 100%; max-width: 500px;" />
         </td>
       </tr>
