@@ -61,7 +61,6 @@
     <a href="https://arxiv.org/pdf/" target="_blank">Paper</a> | <a href="https://github.com/ayushzenith/SDQM" target="_blank">Code</a> 
     <!-- | <a href="" target="_blank">Website (coming soon)</a>  -->
   </h3>
-
 <br>
 
 <h2 align="center">Abstract</h2>
@@ -71,6 +70,12 @@
   <b>Synthetic Dataset Quality Metric (SDQM)</b> is introduced to assess data quality for object detection tasks without requiring full model training. SDQM enables efficient generation and selection of synthetic datasets, addressing key challenges in resource-constrained environments. In our experiments, SDQM showed a strong correlation with mean Average Precision (mAP) scores of YOLOv11, outperforming previous metrics that only achieved moderate or weak correlations. SDQM also provides actionable insights for improving dataset quality, reducing the need for costly iterative training. This scalable and efficient metric sets a new standard for evaluating synthetic data.
 </p>
 </p>
+
+
+## Citation
+If you found this code/work to be useful in your own research, please consider citing as follows:
+```
+```
 
 ## Introduction
 
