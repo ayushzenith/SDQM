@@ -3,8 +3,8 @@
   <div align="center">
     <table>
       <tr>
-        <td style="vertical-align: middle; padding-left: 30px; padding-right: 30px;">
-          <table>
+        <td style="vertical-align: middle; width: 50%; padding-left: 30px; padding-right: 30px;">
+          <table style="width: 100%; margin: 0 auto;">
             <thead>
               <tr>
                 <th>Metric</th>
@@ -42,8 +42,8 @@
             </tfoot>
           </table>
         </td>
-        <td style="vertical-align: middle;">
-          <img src="./media/scatter_plot_random_forest.png" width="400" />
+        <td style="vertical-align: middle; width: 50%; text-align: center;">
+          <img src="./media/scatter_plot_random_forest.png" style="width: 100%; max-width: 500px;" />
         </td>
       </tr>
     </table>
