@@ -3,10 +3,10 @@
   <div align="center">
     <table>
       <tr>
-        <td>
-          <img src="./media/pearson_correlation_matrix.png" />
+        <td style="vertical-align: middle;">
+          <img src="./media/pearson_correlation_matrix.png" width="400" />
         </td>
-        <td style="vertical-align: middle; padding-left: 40px;">
+        <td style="vertical-align: middle; padding-left: 30px; padding-right: 30px;">
           <table>
             <thead>
               <tr>
@@ -45,8 +45,8 @@
             </tfoot>
           </table>
         </td>
-        <td>
-          <img src="./media/scatter_plot_random_forest.png" />
+        <td style="vertical-align: middle;">
+          <img src="./media/scatter_plot_random_forest.png" width="400" />
         </td>
       </tr>
     </table>
