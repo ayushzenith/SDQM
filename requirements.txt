@@ -1,0 +1,18 @@
+# python 3.11.10
+numpy
+torch
+pandas
+openai-clip
+deap
+mauve-text
+Pillow
+torchvision
+matplotlib
+pyyaml
+transformers
+opencv-python
+autokeras
+fiftyone
+albumentations
+pycocotools
+tqdm
