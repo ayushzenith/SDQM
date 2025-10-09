@@ -111,6 +111,8 @@ This repository provides code to calculate each of SDQM's submetrics:
 
 and the integrated super metric, SDQM.
 
+Checkout the deepwiki for more info: https://deepwiki.com/ayushzenith/SDQM
+
 ## Installation
 
 First, install the required packages:
