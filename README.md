@@ -58,7 +58,7 @@
     <a href="#"><strong>Jing Lin</strong></a>
   </p>
   <h3 align="center">
-    <a href="https://arxiv.org/pdf/" target="_blank">Paper</a> | <a href="https://github.com/ayushzenith/SDQM" target="_blank">Code</a> 
+    <a href="https://arxiv.org/pdf/2510.06596" target="_blank">Paper</a> | <a href="https://github.com/ayushzenith/SDQM" target="_blank">Code</a> 
     <!-- | <a href="" target="_blank">Website (coming soon)</a>  -->
   </h3>
 <br>
@@ -75,6 +75,15 @@
 ## Citation
 If you found this code/work to be useful in your own research, please consider citing as follows:
 ```
+@misc{zenith2025sdqmsyntheticdataquality,
+      title={SDQM: Synthetic Data Quality Metric for Object Detection Dataset Evaluation}, 
+      author={Ayush Zenith and Arnold Zumbrun and Neel Raut and Jing Lin},
+      year={2025},
+      eprint={2510.06596},
+      archivePrefix={arXiv},
+      primaryClass={cs.CV},
+      url={https://arxiv.org/abs/2510.06596}, 
+}
 ```
 
 ## Introduction
