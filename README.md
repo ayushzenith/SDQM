@@ -62,8 +62,14 @@
     <!-- | <a href="" target="_blank">Website (coming soon)</a>  -->
   </h3>
 <br>
+</p>
 
+
+
+<p align="center">
 <h2 align="center">Abstract</h2>
+
+  [![arXiv](https://img.shields.io/badge/arXiv-2510.06596-b31b1b.svg)](https://arxiv.org/abs/2510.06596)
 <p align="left">
   The performance of machine learning models depends heavily on the quality of training data. Scarcity of large, well-annotated datasets poses significant challenges for building robust models. Synthetic data—generated via simulations and generative models—offers a promising solution by increasing dataset diversity and improving model performance, reliability, and resilience. However, evaluating the quality of synthetic data requires an effective metric.
   <br><br>
