@@ -3,7 +3,6 @@ import json
 import os
 import re
 from typing import Any, Callable
-
 import pandas as pd
 import ray
 import torch
@@ -26,12 +25,9 @@ EMBEDDING_MODELS = [
     "IDEA-Research/grounding-dino-tiny",
     "facebook/dinov2-small",
 ]
-
-
 def to_path(path: str) -> str:
     # remove all characters that are not alphanumeric or a period
-    return "".join([c for c in path if c.isalnum() or c == "."])
-
+    return "".join(c for c in path if c.isalnum() or c == ".")
 
 def process_embeddings(evolved_set, embedding_model, split, text_type=None):
     embedding_dir = os.path.join(evolved_set, "embeddings")
