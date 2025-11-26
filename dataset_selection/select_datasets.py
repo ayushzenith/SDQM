@@ -525,26 +525,10 @@ def main():
     parser.add_argument("--synthetic_yolo_dir", type=str, default="data/yolo", help="Path to synthetic dataset YOLO directory")
     parser.add_argument("--output_dir", type=str, default="data", help="Path to output selected datasets")
     parser.add_argument("--model_text", type=str, default="Vehicle", help="Text to use for grounding dino embedding model")
-    parser.add_argument(
-        "--scene_function",
-        type=str,
-        choices=[
-            "wasabi_scene",
-            "rareplanes_real_scene",
-            "rareplanes_synthetic_scene",
-            "dimo_scene",
-        ],
+    parser.add_argument("--scene_function", type=str, choices=["wasabi_scene", "rareplanes_real_scene", "dimo_scene",],
         help="Scene function to use for splitting",
     )
-    parser.add_argument(
-        "--synthetic_scene_function",
-        type=str,
-        choices=[
-            "wasabi_scene",
-            "rareplanes_real_scene",
-            "rareplanes_synthetic_scene",
-            "dimo_scene",
-        ],
+    parser.add_argument("--synthetic_scene_function", type=str, choices=["wasabi_scene", "rareplanes_synthetic_scene", "dimo_scene",],
         help="Scene function to use for synthetic dataset splitting",
     )
     parser.add_argument("--input_splits", type=str, nargs="+", default=["train", "val", "test"], help="Splits from input datasets to use")
@@ -552,14 +536,9 @@ def main():
     parser.add_argument("--val_split", type=float, help="Validation split proportion")
     parser.add_argument("--test_split", type=float, help="Test split proportion")
     parser.add_argument("--imgsz", type=int, default=640, help="Image size for YOLO training")
-
     args = parser.parse_args()
 
-    split = {
-        "train": args.train_split,
-        "val": args.val_split,
-        "test": args.test_split,
-    }
+    split = {"train": args.train_split, "val": args.val_split, "test": args.test_split }
 
     run(
         args.num_datasets,
