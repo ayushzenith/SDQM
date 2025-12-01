@@ -1,53 +1,5 @@
 <p align="center">
   <h1 align="center">SDQM: Synthetic Data Quality Metric for Object Detection Dataset Evaluation</h1>
-  <div align="center">
-    <table>
-      <tr>
-        <td style="vertical-align: middle; width: 30%; padding-left: 15px; padding-right: 15px;">
-          <table style="width: 100%; margin: 0 auto;">
-            <thead>
-              <tr>
-                <th>Metric</th>
-                <th>mAP50<br>Pearson<br>Correlation</th>
-              </tr>
-            </thead>
-            <tbody>
-              <tr>
-                <td>α-Precision<sup>11</sup></td>
-                <td>0.4477</td>
-              </tr>
-              <tr>
-                <td>β-Recall<sup>11</sup></td>
-                <td>0.5865</td>
-              </tr>
-              <tr>
-                <td>Authenticity<sup>11</sup></td>
-                <td>-0.3482</td>
-              </tr>
-              <tr>
-                <td>MAUVE<sup>9</sup></td>
-                <td>0.5651</td>
-              </tr>
-              <tr>
-                <td><b>SDQM (ours)</b></td>
-                <td><b>0.8719</b></td>
-              </tr>
-            </tbody>
-            <tfoot>
-              <tr>
-                <td colspan="2" style="text-align: center; font-size: 0.9em; padding-top: 10px;">
-                  <i>SDQM demonstrates superior correlation <br> with model performance compared to alternative metrics.</i>
-                </td>
-              </tr>
-            </tfoot>
-          </table>
-        </td>
-        <td style="vertical-align: middle; width: 70%; text-align: center;">
-          <img src="./media/scatter_plot_random_forest.png" style="width: 100%; max-width: 500px;" />
-        </td>
-      </tr>
-    </table>
-  </div>
   <p align="center">
     <a href="https://ayushzenith.me"><strong>Ayush Zenith</strong></a>
     ·
