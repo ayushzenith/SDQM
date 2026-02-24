@@ -10,7 +10,7 @@
     <a href="#"><strong>Jing Lin</strong></a>
   </p>
   <h3 align="center">
-    <a href="https://arxiv.org/pdf/2510.06596" target="_blank">Paper</a> | <a href="https://github.com/ayushzenith/SDQM" target="_blank">Code</a> 
+    <a href="https://arxiv.org/pdf/2510.06596" target="_blank">Paper</a>  
     <!-- | <a href="" target="_blank">Website (coming soon)</a>  -->
   </h3>
 <br>
